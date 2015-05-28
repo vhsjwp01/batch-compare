@@ -259,6 +259,7 @@ fi
 if [ ${exit_code} -eq ${SUCCESS} ]; then
 
     if [ -e "${outfile}" ]; then
+        answer=""
 
         while [ "${answer}" = "" ] ;do
             echo
